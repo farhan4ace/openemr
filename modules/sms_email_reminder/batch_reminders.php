@@ -39,7 +39,7 @@ require_once($GLOBALS['srcdir'] . "/reminders.php");
 
 <table>
  <tr>
-  <td class='text' align='left' colspan="3"><br>
+  <td class='text' align='left' colspan="5"><br>
   
     <?php $update_rem_log = update_reminders(); ?>
 
