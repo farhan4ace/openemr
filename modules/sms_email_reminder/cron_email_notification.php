@@ -26,7 +26,7 @@ $CRON_TIME = 5;
 $vectNotificationSettings = cron_GetNotificationSettings( );
 $CRON_TIME = $vectNotificationSettings['Send_Email_Before_Hours'];
 
-$check_date = date("Y-m-d", mktime(date("h")+$EMAIL_NOTIFICATION_HOUR, 0, 0, date("m"), date("d"), date("Y")));
+$check_date = date("d-m-y", mktime(date("h")+$EMAIL_NOTIFICATION_HOUR, 0, 0, date("m"), date("d"), date("Y")));
 
 
 // get data from automatic_notification table
